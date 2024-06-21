@@ -12,7 +12,7 @@ function HomePage() {
         <Text fontWeight={"bold"} fontSize={"30px"}>
           Home
         </Text>
-        <Flex alignItems={'center'} p={'20px'} borderBottom={'1px solid grey'}>
+          <Flex alignItems={'center'} p={'20px'} borderBottom={'1px solid grey'}>
                 <Image width={'35px'} height={'35px'} borderRadius={'50%'} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOs9pBGGQuGe0JKeFg1XegK87RXxs1mIHyyg&s" alt="img-suggested" />
                 <Box width={'100%'}>
                 <form onSubmit={handleSubmit(onSubmit)}>
